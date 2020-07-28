@@ -1,0 +1,97 @@
+/* ***** Limpar formatações padrão ***** */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ***** formatação corpo ***** */
+body {
+
+    font-size: 22px;
+    padding: 30px;
+    font-family: "sans-serif";
+    background: #FAEBD7;
+}
+
+/* ****** menu e logo ***** */
+
+#area-cabecalho {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    text-align: center;
+    background-color: #DC143C;
+}
+
+#area-logo {
+    padding: 10px;
+    color: #FAEBD7;
+    
+}
+
+#area-menu {
+    padding: 10px;
+}
+
+/* ****** hiperlinks ***** */
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #FAEBD7;
+    padding: 100px 10px;
+}
+
+a:hover {
+    color: #DC143C;
+    background: #FAEBD7;
+}
+
+/* ***** caixa de postagens ***** */
+#postagem {
+    color: midnightblue;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #FFDAB9;
+}
+
+#area-principal{
+    /*background: red;*/
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens {
+    width: 600px;
+    float: left;
+}
+
+.area-lateral {
+    width: 300px;
+    float: right;
+    margin: 0;
+}
+
+/* ***** rodapé ***** */
+#rodape {
+    /* clear: both;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #FAEBD7;
+    text-align: center;
+    background-color: #DC143C;
+    margin: 20px; */
+}
+
+/* ***** imagens ***** */
+img {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    background: #FFDAB9;
+    float: right;
+}
+
